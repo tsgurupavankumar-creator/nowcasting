@@ -1,0 +1,72 @@
+Shape: (58518, 18)
+Time range: 2005-06-01 05:00:00 -> 2024-09-30 23:00:00
+Maximum consecutive timestamp gap: 244 days 01:00:00 (2007-09-30 23:00:00 -> 2008-06-01 00:00:00)
+Dtypes:
+t2m             float64
+u10             float64
+v10             float64
+sp              float64
+tcwv            float64
+tp              float64
+rain_mm         float64
+rain_3h         float64
+rain_6h         float64
+rain_peak_3h    float64
+rain_lag1       float64
+rain_lag2       float64
+wind_speed      float64
+tcwv_3h         float64
+tcwv_6h         float64
+sp_drop_3h      float64
+t2m_grad        float64
+cloudburst        int64
+Missing values per column:
+t2m             0
+u10             0
+v10             0
+sp              0
+tcwv            0
+tp              0
+rain_mm         0
+rain_3h         0
+rain_6h         0
+rain_peak_3h    0
+rain_lag1       0
+rain_lag2       0
+wind_speed      0
+tcwv_3h         0
+tcwv_6h         0
+sp_drop_3h      0
+t2m_grad        0
+cloudburst      0
+Class counts:
+cloudburst
+0    56132
+1     2386
+Positive class rate: 4.0774%
+Point-biserial correlations, sorted by absolute value:
+rain_3h         0.741727
+rain_peak_3h    0.738704
+rain_lag1       0.732145
+rain_6h         0.725705
+rain_mm         0.724707
+rain_lag2       0.718405
+tp              0.411391
+tcwv_3h         0.195546
+tcwv            0.195173
+tcwv_6h         0.194741
+u10            -0.150258
+t2m            -0.086489
+v10             0.047202
+sp             -0.046960
+sp_drop_3h      0.017422
+wind_speed      0.001288
+t2m_grad       -0.000263
+Possible leakage flags (|correlation| > 0.5):
+rain_3h        0.741727
+rain_peak_3h   0.738704
+rain_lag1      0.732145
+rain_6h        0.725705
+rain_mm        0.724707
+rain_lag2      0.718405
+Caution: correlation is a screening flag, not proof of future information leakage.

@@ -1,0 +1,19 @@
+{
+  "LogReg":{
+    "best_params":{
+      "classifier__C":0.0022310108
+    },
+    "best_cv_pr_auc_mean":0.3337959727,
+    "best_cv_pr_auc_std":0.038957926
+  },
+  "GradientBoosting":{
+    "best_params":{
+      "classifier__n_estimators":150,
+      "classifier__min_samples_leaf":2,
+      "classifier__max_depth":2,
+      "classifier__learning_rate":0.03
+    },
+    "best_cv_pr_auc_mean":0.3146985007,
+    "best_cv_pr_auc_std":0.0426834408
+  }
+}

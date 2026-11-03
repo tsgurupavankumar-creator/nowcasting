@@ -1,0 +1,8 @@
+ablation,dropped_feature,features,test_pr_auc
+drop_v10,v10,"t2m,u10,sp,tcwv,wind_speed",0.20572569274535007
+drop_wind_speed,wind_speed,"t2m,u10,v10,sp,tcwv",0.19590453352821466
+drop_u10,u10,"t2m,v10,sp,tcwv,wind_speed",0.1933786398806894
+all_6_features,,"t2m,u10,v10,sp,tcwv,wind_speed",0.19136746864626222
+drop_sp,sp,"t2m,u10,v10,tcwv,wind_speed",0.16550734809634834
+drop_tcwv,tcwv,"t2m,u10,v10,sp,wind_speed",0.14846618883753346
+drop_t2m,t2m,"u10,v10,sp,tcwv,wind_speed",0.13733891712374022
